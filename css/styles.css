@@ -1,0 +1,82 @@
+body {
+  position: relative;
+  width: 90rem;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.pattern-bottom {
+  position: absolute;
+  right: 45rem;
+  top: -22.5rem;
+}
+
+.pattern-card {
+  position: absolute;
+  left: 34.0625rem;
+  top: 11.25rem;
+  height: 26.25rem;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.pattern-top {
+  position: absolute;
+  left: 45rem;
+  top: 22.5rem;
+}
+
+.card-image {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.fico {
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  left: 7.9375rem;
+  top: 5.75rem;
+  border: solid 0.25rem;
+  border-color: white;
+  border-radius: 100%;
+}
+
+.fico-text {
+  position: absolute;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  bottom: 8.125rem;
+  left: 6.485625rem;
+  line-height: 2;
+}
+
+.fico-span {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+.fico-hr {
+  margin-top: 11.25rem;
+}
+
+.fico-followers {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+}
+
+.fico-followers-mini {
+  display: inline-block;
+  margin: auto 1.875rem;
+}
